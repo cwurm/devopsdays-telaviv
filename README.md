@@ -17,7 +17,9 @@ Edit these lines:
   password: "changeme"
 ```
 
-Replace with the hostname and port your Elasticsearch is running on.
+Replace with the hostname, username and password of your Elasticsearch.
 
 ### Run Metricbeat
+```
 ./metricbeat -e
+```
